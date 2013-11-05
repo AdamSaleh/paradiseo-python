@@ -13,7 +13,7 @@ def login():
   br.open("http://centaur.fi.muni.cz:8000/boinc/labak_management/") 
   br.select_form(nr=0)
   br.form['login'] = 'xsaleh'
-  br.form['password'] = '*cygnusolor*'
+  br.form['password'] = 'PASSWORD'
   br.submit()
   return br
   
