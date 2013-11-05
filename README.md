@@ -6,12 +6,12 @@ in multi-criteria evolutionary optimization of paradiseo framework.
 
 Building
 ========
-Building the binary was tested on Linux and Windows 7 with the help of (cygwin)[http://www.cygwin.com/].
+Building the binary was tested on Linux and Windows 7 with the help of [cygwin](http://www.cygwin.com/).
 
 Requirements:
 * make
 * g++
-* (paradiseo)[http://paradiseo.gforge.inria.fr/] moeo and eo libraries and headers
+* [paradiseo](http://paradiseo.gforge.inria.fr/) moeo and eo libraries and headers
 * Python2.7 libraries and headers
 
 Make file should be fairly self explanatory, although all the paths were hardcoded to point
