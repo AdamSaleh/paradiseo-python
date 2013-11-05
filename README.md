@@ -27,3 +27,8 @@ Running
 =======
 
 Just running the evolve binary will load the example sch1 problem.
+
+To try the boinc integration with LABAK's boinc server you first need the [mechanize](https://pypi.python.org/pypi/mechanize/) library for python.
+File boincmechanized.by contains a small library for connecting to boinc administration server, 
+where you need to edit the login function to provide your credentials.
+Running "evolve --pModule=ObjectiveVectorTraitsBoinc" will start the the example with boinc integration.
