@@ -9,10 +9,10 @@ Building
 Building the binary was tested on Linux and Windows 7 with the help of [cygwin|http://www.cygwin.com/].
 
 Requirements:
-*make
-*g++
-*[paradiseo|http://paradiseo.gforge.inria.fr/] moeo and eo libraries and headers
-*Python2.7 libraries and headers
+* make
+* g++
+* [paradiseo|http://paradiseo.gforge.inria.fr/] moeo and eo libraries and headers
+* Python2.7 libraries and headers
 
 Make file should be fairly self explanatory, although all the paths were hardcoded to point
 to their respective locations when libraries were installed under cygwin.
