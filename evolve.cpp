@@ -16,7 +16,6 @@ public:
   void operator()(eoPop<EOT> & _parents, eoPop<EOT> & offspring)
   {
       (void)_parents;
-      cout << "Evaluating population\n";
       py_popeval(offspring);
   }
 };

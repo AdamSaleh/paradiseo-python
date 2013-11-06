@@ -17,5 +17,5 @@ def nParams():
 def report(inp,rep):
     print rep
 
-#def popeval(pop):
-#  return [[x[0]**2,(x[0]-2)**2] for x in pop]
+def popeval(pop):
+  return [[x[0]**2,(x[0]-2)**2] for x in pop]
