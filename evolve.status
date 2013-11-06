@@ -1,0 +1,19 @@
+
+### GENERAL ########################################################################
+# --help=0                                 # -h : Prints this message
+# --stopOnUnknownParam=1                   # Stop if unkown param entered
+# --pPath=./                               # -t : Python path
+# --pModule=ObjectiveVectorTraitsPrecomputed # -m : Python module
+# --pAlgo=nsgaII                           # -a : Evolution algorithm
+
+### PARAM ##########################################################################
+# --popSize=100                            # -P : Population size
+# --maxGen=100                             # -G : Maximum number of generations
+# --mutEpsilon=0.01                        # -e : epsilon for mutation
+# --crossProb=0.25                         # -q : param crossover probability
+# --pCross=0.25                            # -C : Crossover probability
+# --pMut=1                                 # -M : individual mutation probability
+# --mutProb=0.35                           # -w : param mutation probability
+
+### PERSISTENCE ####################################################################
+# --status=./evolve.status                 # Status file
