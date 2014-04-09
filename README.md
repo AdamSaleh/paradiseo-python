@@ -32,3 +32,8 @@ To try the boinc integration with LABAK's boinc server you first need the [mecha
 File boincmechanized.by contains a small library for connecting to boinc administration server, 
 where you need to edit the login function to provide your credentials.
 Running "evolve --pModule=ObjectiveVectorTraitsBoinc" will start the the example with boinc integration.
+
+Command
+=======
+
+./evolve  --pModule=ObjectiveVectorTraits --pAlgo=spea2 --mutEpsilon=0.1 --popSize=10 --maxGen=10 --pMut=1 --mutProb=0.01 --pCross=0.01 --crossProb=0.5
